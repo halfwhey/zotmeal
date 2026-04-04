@@ -1,0 +1,19 @@
+{
+  "name": "@halfwhey/zotmeal-cli",
+  "version": "0.1.1",
+  "type": "module",
+  "bin": {
+    "zotmeal-cli": "dist/zotmeal.js"
+  },
+  "files": [
+    "dist/zotmeal.js"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@halfwhey/zotmeal-core": "workspace:*",
+    "commander": "^13.0.0"
+  }
+}

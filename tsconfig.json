@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/zotmeal-core" },
+    { "path": "packages/zotmeal-cli" }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "apps/mobile"]
+	path = apps/mobile
+	url = ssh://git@uno-mac:2222/the-hive/zotmeal-mobile.git
