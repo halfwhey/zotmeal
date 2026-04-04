@@ -22,9 +22,8 @@ bun packages/zotmeal-cli/src/index.ts  # Run CLI from source
 ### Versioning & Publishing
 
 ```bash
-PACKAGE=zotmeal-cli make version-patch  # Bump a specific package version
-PACKAGE=zotmeal-core make version-minor # Works for any package in packages/
-make publish                            # Build + publish CLI to npm
+PACKAGE=zotmeal-cli make release NEW_VERSION=v1.2.3  # Bump, commit, tag, push, create GH release
+make publish                                          # Build + publish CLI to npm
 ```
 
 Only `@halfwhey/zotmeal-cli` is published to npm. It's fully bundled (single file), so its deps are `devDependencies` — npm consumers get no transitive installs.
